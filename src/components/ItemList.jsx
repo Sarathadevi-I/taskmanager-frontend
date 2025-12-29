@@ -71,8 +71,8 @@ const ItemList = () => {
             >
               <div className="card-body">
                 <h5 className="card-title"> Task Title:  {task.taskTitle}</h5>
-                <p className="card-text">Description:  {task.taskDescription}</p>
-
+                <p className="card-text fw-bold">Description:  {task.taskDescription}</p>
+        
                 <p className="mb-1">
                   <b>Assigned To:  </b> {task.assignedTo}
                 </p>
